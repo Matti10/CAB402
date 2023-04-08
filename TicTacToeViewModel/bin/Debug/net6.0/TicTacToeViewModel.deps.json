@@ -1,0 +1,247 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TicTacToeViewModel/1.0.0": {
+        "dependencies": {
+          "CSharpTicTacToeModels": "1.0.0",
+          "FSharpTicTacToeModels": "1.0.0",
+          "NodeCounter": "1.0.0",
+          "ReactiveUI": "17.1.50",
+          "ReactiveUI.Fody": "17.1.50"
+        },
+        "runtime": {
+          "TicTacToeViewModel.dll": {}
+        }
+      },
+      "DynamicData/7.5.2": {
+        "dependencies": {
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DynamicData.dll": {
+            "assemblyVersion": "7.5.0.0",
+            "fileVersion": "7.5.2.65420"
+          }
+        }
+      },
+      "Fody/6.6.0": {},
+      "FSharp.Core/6.0.3": {
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.322.10402"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "ReactiveUI/17.1.50": {
+        "dependencies": {
+          "DynamicData": "7.5.2",
+          "Splat": "14.1.45"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.50.10374"
+          }
+        }
+      },
+      "ReactiveUI.Fody/17.1.50": {
+        "dependencies": {
+          "Fody": "6.6.0",
+          "ReactiveUI": "17.1.50"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.Fody.Helpers.dll": {
+            "assemblyVersion": "17.1.0.0",
+            "fileVersion": "17.1.50.10374"
+          }
+        }
+      },
+      "Splat/14.1.45": {
+        "runtime": {
+          "lib/net6.0/Splat.dll": {
+            "assemblyVersion": "14.1.0.0",
+            "fileVersion": "14.1.45.37580"
+          }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "CSharpTicTacToeModels/1.0.0": {
+        "dependencies": {
+          "GameTheory": "1.0.0",
+          "NodeCounter": "1.0.0",
+          "TicTacToeModelInterfaces": "1.0.0"
+        },
+        "runtime": {
+          "CSharpTicTacToeModels.dll": {}
+        }
+      },
+      "FSharpTicTacToeModels/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "6.0.3",
+          "GameTheory": "1.0.0",
+          "TicTacToeModelInterfaces": "1.0.0"
+        },
+        "runtime": {
+          "FSharpTicTacToeModels.dll": {}
+        }
+      },
+      "GameTheory/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "6.0.3",
+          "NodeCounter": "1.0.0"
+        },
+        "runtime": {
+          "GameTheory.dll": {}
+        }
+      },
+      "NodeCounter/1.0.0": {
+        "runtime": {
+          "NodeCounter.dll": {}
+        }
+      },
+      "TicTacToeModelInterfaces/1.0.0": {
+        "dependencies": {
+          "FSharp.Core": "6.0.3"
+        },
+        "runtime": {
+          "TicTacToeModelInterfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TicTacToeViewModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DynamicData/7.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J6nZsHqG+CYWIrRUPQrZqf7o8bhjWESmbIbGfNQAsJmtDNcc/DYfxBFV8wW44n/Dz0RweczrXQgMtWf+m5X8ig==",
+      "path": "dynamicdata/7.5.2",
+      "hashPath": "dynamicdata.7.5.2.nupkg.sha512"
+    },
+    "Fody/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NWWM8KiR9DGiAi47q9px9oI27xYBiM5KXxSnI4R5mz2/rG8LIcXJfw5zDLLH1xOgzqRNJgc8KTPQPoiQCidYUw==",
+      "path": "fody/6.6.0",
+      "hashPath": "fody.6.6.0.nupkg.sha512"
+    },
+    "FSharp.Core/6.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ywxwMhsA1nG2hsRSMl3IzYvdugrSoFg/ZY99cuBqV0SX0yp8ubD6Hee8Bh3YwaF2Ucyq/Jz8lZ0MY5VjxgogbA==",
+      "path": "fsharp.core/6.0.3",
+      "hashPath": "fsharp.core.6.0.3.nupkg.sha512"
+    },
+    "ReactiveUI/17.1.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UofZH1WMwWNLvFkK2SH+gsYTkUmhFFJO0Pix9YG2RzdHQ92mRFCzHzPO1abeU8/cxzyc9hJHX7sBChzUj53Ulg==",
+      "path": "reactiveui/17.1.50",
+      "hashPath": "reactiveui.17.1.50.nupkg.sha512"
+    },
+    "ReactiveUI.Fody/17.1.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X64a6p38anLA8GSzGaWUJPVuGKoJTTztdISIxx5aLNJN56/7PFuuYiIoLmOSLIK+p3aIRPzbKCFbpsLWvtqpMQ==",
+      "path": "reactiveui.fody/17.1.50",
+      "hashPath": "reactiveui.fody.17.1.50.nupkg.sha512"
+    },
+    "Splat/14.1.45": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ayHdfTUklD5ci0s9m4uYMccjtkKVjZ9fVPT5q3PN+SnvyD6bjQVRozOfUHwdwh4LAz9ETZjR/tAgrm+IapXKrw==",
+      "path": "splat/14.1.45",
+      "hashPath": "splat.14.1.45.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    },
+    "CSharpTicTacToeModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FSharpTicTacToeModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameTheory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NodeCounter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TicTacToeModelInterfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

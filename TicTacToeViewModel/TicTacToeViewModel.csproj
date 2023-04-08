@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI" Version="17.1.50" />
+	<PackageReference Include="ReactiveUI.Fody" Version="17.1.50" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpTicTacToeModels\CSharpTicTacToeModels.csproj" />
+    <ProjectReference Include="..\FSharpTicTacToeModels\FSharpTicTacToeModels.fsproj" />
+    <ProjectReference Include="..\NodeCounter\NodeCounter.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FneyuZMLQx14Cj2UWKoBRI2O6fHS13LxIsbz6Pudjtpfg/oCAGvbAv/cYT3nYhtWM2D1CPx8GxvKjceSMhP8jQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\GameTheory\\GameTheory.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matti\\.nuget\\packages\\fsharp.core\\6.0.3\\fsharp.core.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

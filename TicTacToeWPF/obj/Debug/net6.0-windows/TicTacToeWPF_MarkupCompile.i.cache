@@ -1,0 +1,20 @@
+﻿TicTacToeWPF
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\TicTacToeWPF\obj\Debug\net6.0-windows\
+TicTacToeWPF
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\TicTacToeWPF\TicTacToeApp.xaml
+2-440470259
+1-844211340
+61718468488
+207840456128
+Views\TicTacToeMainWindow.xaml;Views\TicTacToeSquare.xaml;
+
+False
+

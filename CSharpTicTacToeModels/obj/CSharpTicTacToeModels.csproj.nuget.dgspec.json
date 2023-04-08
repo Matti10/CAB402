@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\CSharpTicTacToeModels\\CSharpTicTacToeModels.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\CSharpTicTacToeModels\\CSharpTicTacToeModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\CSharpTicTacToeModels\\CSharpTicTacToeModels.csproj",
+        "projectName": "CSharpTicTacToeModels",
+        "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\CSharpTicTacToeModels\\CSharpTicTacToeModels.csproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\CSharpTicTacToeModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\GameTheory\\GameTheory.fsproj": {
+                "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\GameTheory\\GameTheory.fsproj"
+              },
+              "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\NodeCounter.csproj": {
+                "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\NodeCounter.csproj"
+              },
+              "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeModelInterfaces\\TicTacToeModelInterfaces.fsproj": {
+                "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeModelInterfaces\\TicTacToeModelInterfaces.fsproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\GameTheory\\GameTheory.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\GameTheory\\GameTheory.fsproj",
+        "projectName": "GameTheory",
+        "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\GameTheory\\GameTheory.fsproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\GameTheory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\NodeCounter.csproj": {
+                "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\NodeCounter.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.3, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\NodeCounter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\NodeCounter.csproj",
+        "projectName": "NodeCounter",
+        "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\NodeCounter.csproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\NodeCounter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeModelInterfaces\\TicTacToeModelInterfaces.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeModelInterfaces\\TicTacToeModelInterfaces.fsproj",
+        "projectName": "TicTacToeModelInterfaces",
+        "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeModelInterfaces\\TicTacToeModelInterfaces.fsproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeModelInterfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.3, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

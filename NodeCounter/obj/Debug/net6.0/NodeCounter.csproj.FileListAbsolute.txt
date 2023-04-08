@@ -1,0 +1,12 @@
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\bin\Debug\net6.0\NodeCounter.deps.json
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\bin\Debug\net6.0\NodeCounter.dll
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\bin\Debug\net6.0\NodeCounter.pdb
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\NodeCounter.csproj.AssemblyReference.cache
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\NodeCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\NodeCounter.AssemblyInfoInputs.cache
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\NodeCounter.AssemblyInfo.cs
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\NodeCounter.csproj.CoreCompileInputs.cache
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\NodeCounter.dll
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\refint\NodeCounter.dll
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\NodeCounter.pdb
+C:\Users\matti\OneDrive - Queensland University of Technology\CAB402\assign1\soluiton\NodeCounter\obj\Debug\net6.0\ref\NodeCounter.dll

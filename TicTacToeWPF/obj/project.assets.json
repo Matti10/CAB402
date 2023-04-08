@@ -1,0 +1,582 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "DynamicData/7.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Reactive": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0/DynamicData.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/DynamicData.dll": {}
+        }
+      },
+      "Fody/6.6.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "FSharp.Core/6.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "ReactiveUI/17.1.50": {
+        "type": "package",
+        "dependencies": {
+          "DynamicData": "7.5.2",
+          "Splat": "14.1.45"
+        },
+        "compile": {
+          "lib/net6.0/ReactiveUI.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.dll": {}
+        }
+      },
+      "ReactiveUI.Fody/17.1.50": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "6.6.0",
+          "ReactiveUI": "17.1.50"
+        },
+        "compile": {
+          "lib/net6.0/ReactiveUI.Fody.Helpers.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.Fody.Helpers.dll": {}
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "ReactiveUI.WPF/17.1.50": {
+        "type": "package",
+        "dependencies": {
+          "ReactiveUI": "17.1.50"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/ReactiveUI.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ReactiveUI.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Splat/14.1.45": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Splat.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Splat.dll": {}
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {}
+        },
+        "build": {
+          "buildTransitive/net5.0/_._": {}
+        }
+      },
+      "CSharpTicTacToeModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "GameTheory": "1.0.0",
+          "NodeCounter": "1.0.0",
+          "TicTacToeModelInterfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CSharpTicTacToeModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpTicTacToeModels.dll": {}
+        }
+      },
+      "FSharpTicTacToeModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FSharp.Core": "6.0.3",
+          "GameTheory": "1.0.0",
+          "TicTacToeModelInterfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FSharpTicTacToeModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FSharpTicTacToeModels.dll": {}
+        }
+      },
+      "GameTheory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FSharp.Core": "6.0.3",
+          "NodeCounter": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameTheory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTheory.dll": {}
+        }
+      },
+      "NodeCounter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NodeCounter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NodeCounter.dll": {}
+        }
+      },
+      "TicTacToeModelInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FSharp.Core": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/TicTacToeModelInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicTacToeModelInterfaces.dll": {}
+        }
+      },
+      "TicTacToeViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CSharpTicTacToeModels": "1.0.0",
+          "FSharpTicTacToeModels": "1.0.0",
+          "NodeCounter": "1.0.0",
+          "ReactiveUI": "17.1.50",
+          "ReactiveUI.Fody": "17.1.50"
+        },
+        "compile": {
+          "bin/placeholder/TicTacToeViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicTacToeViewModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DynamicData/7.5.2": {
+      "sha512": "J6nZsHqG+CYWIrRUPQrZqf7o8bhjWESmbIbGfNQAsJmtDNcc/DYfxBFV8wW44n/Dz0RweczrXQgMtWf+m5X8ig==",
+      "type": "package",
+      "path": "dynamicdata/7.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "dynamicdata.7.5.2.nupkg.sha512",
+        "dynamicdata.nuspec",
+        "lib/net462/DynamicData.dll",
+        "lib/net462/DynamicData.xml",
+        "lib/net6.0/DynamicData.dll",
+        "lib/net6.0/DynamicData.xml",
+        "lib/netstandard2.0/DynamicData.dll",
+        "lib/netstandard2.0/DynamicData.xml",
+        "lib/uap10.0.16299/DynamicData.dll",
+        "lib/uap10.0.16299/DynamicData.pri",
+        "lib/uap10.0.16299/DynamicData.xml",
+        "logo.png"
+      ]
+    },
+    "Fody/6.6.0": {
+      "sha512": "NWWM8KiR9DGiAi47q9px9oI27xYBiM5KXxSnI4R5mz2/rG8LIcXJfw5zDLLH1xOgzqRNJgc8KTPQPoiQCidYUw==",
+      "type": "package",
+      "path": "fody/6.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/Fody.targets",
+        "fody.6.6.0.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "FSharp.Core/6.0.3": {
+      "sha512": "ywxwMhsA1nG2hsRSMl3IzYvdugrSoFg/ZY99cuBqV0SX0yp8ubD6Hee8Bh3YwaF2Ucyq/Jz8lZ0MY5VjxgogbA==",
+      "type": "package",
+      "path": "fsharp.core/6.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "contentFiles/any/netstandard2.0/FSharp.Core.xml",
+        "contentFiles/any/netstandard2.1/FSharp.Core.xml",
+        "fsharp.core.6.0.3.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "ReactiveUI/17.1.50": {
+      "sha512": "UofZH1WMwWNLvFkK2SH+gsYTkUmhFFJO0Pix9YG2RzdHQ92mRFCzHzPO1abeU8/cxzyc9hJHX7sBChzUj53Ulg==",
+      "type": "package",
+      "path": "reactiveui/17.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/monoandroid11.0/ReactiveUI.dll",
+        "lib/monoandroid11.0/ReactiveUI.pdb",
+        "lib/monoandroid11.0/ReactiveUI.xml",
+        "lib/net462/ReactiveUI.dll",
+        "lib/net462/ReactiveUI.xml",
+        "lib/net472/ReactiveUI.dll",
+        "lib/net472/ReactiveUI.xml",
+        "lib/net6.0-android31.0/ReactiveUI.dll",
+        "lib/net6.0-android31.0/ReactiveUI.xml",
+        "lib/net6.0-ios15.0/ReactiveUI.dll",
+        "lib/net6.0-ios15.0/ReactiveUI.xml",
+        "lib/net6.0-macos12.0/ReactiveUI.dll",
+        "lib/net6.0-macos12.0/ReactiveUI.xml",
+        "lib/net6.0-tvos15.0/ReactiveUI.dll",
+        "lib/net6.0-tvos15.0/ReactiveUI.xml",
+        "lib/net6.0/ReactiveUI.dll",
+        "lib/net6.0/ReactiveUI.xml",
+        "lib/netstandard2.0/ReactiveUI.dll",
+        "lib/netstandard2.0/ReactiveUI.xml",
+        "lib/tizen40/ReactiveUI.dll",
+        "lib/tizen40/ReactiveUI.xml",
+        "lib/uap10.0.16299/ReactiveUI.dll",
+        "lib/uap10.0.16299/ReactiveUI.pri",
+        "lib/uap10.0.16299/ReactiveUI.xml",
+        "lib/xamarinios10/ReactiveUI.dll",
+        "lib/xamarinios10/ReactiveUI.xml",
+        "lib/xamarinmac20/ReactiveUI.dll",
+        "lib/xamarinmac20/ReactiveUI.xml",
+        "lib/xamarintvos10/ReactiveUI.dll",
+        "lib/xamarintvos10/ReactiveUI.xml",
+        "logo.png",
+        "reactiveui.17.1.50.nupkg.sha512",
+        "reactiveui.nuspec"
+      ]
+    },
+    "ReactiveUI.Fody/17.1.50": {
+      "sha512": "X64a6p38anLA8GSzGaWUJPVuGKoJTTztdISIxx5aLNJN56/7PFuuYiIoLmOSLIK+p3aIRPzbKCFbpsLWvtqpMQ==",
+      "type": "package",
+      "path": "reactiveui.fody/17.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "build/ReactiveUI.Fody.props",
+        "lib/monoandroid11.0/ReactiveUI.Fody.Helpers.dll",
+        "lib/monoandroid11.0/ReactiveUI.Fody.Helpers.pdb",
+        "lib/monoandroid11.0/ReactiveUI.Fody.Helpers.xml",
+        "lib/net472/ReactiveUI.Fody.Helpers.dll",
+        "lib/net472/ReactiveUI.Fody.Helpers.xml",
+        "lib/net6.0/ReactiveUI.Fody.Helpers.dll",
+        "lib/net6.0/ReactiveUI.Fody.Helpers.xml",
+        "lib/netstandard2.0/ReactiveUI.Fody.Helpers.dll",
+        "lib/netstandard2.0/ReactiveUI.Fody.Helpers.xml",
+        "lib/uap10.0.16299/ReactiveUI.Fody.Helpers.dll",
+        "lib/uap10.0.16299/ReactiveUI.Fody.Helpers.pri",
+        "lib/uap10.0.16299/ReactiveUI.Fody.Helpers.xml",
+        "lib/xamarinios10/ReactiveUI.Fody.Helpers.dll",
+        "lib/xamarinios10/ReactiveUI.Fody.Helpers.xml",
+        "lib/xamarinmac20/ReactiveUI.Fody.Helpers.dll",
+        "lib/xamarinmac20/ReactiveUI.Fody.Helpers.xml",
+        "lib/xamarintvos10/ReactiveUI.Fody.Helpers.dll",
+        "lib/xamarintvos10/ReactiveUI.Fody.Helpers.xml",
+        "logo.png",
+        "reactiveui.fody.17.1.50.nupkg.sha512",
+        "reactiveui.fody.nuspec",
+        "weaver/ReactiveUI.Fody.dll"
+      ]
+    },
+    "ReactiveUI.WPF/17.1.50": {
+      "sha512": "tyPmVvRdZ9XBS/8RR/QJjSULedHbaKUOafnUWZN5Of2ZgiP31NBRYv4ewWmt5Bghj6vSF2YRCcKljbFDTYHsVg==",
+      "type": "package",
+      "path": "reactiveui.wpf/17.1.50",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/net462/ReactiveUI.Wpf.dll",
+        "lib/net462/ReactiveUI.Wpf.xml",
+        "lib/net472/ReactiveUI.Wpf.dll",
+        "lib/net472/ReactiveUI.Wpf.xml",
+        "lib/net48/ReactiveUI.Wpf.dll",
+        "lib/net48/ReactiveUI.Wpf.xml",
+        "lib/net6.0-windows10.0.19041/ReactiveUI.Wpf.dll",
+        "lib/net6.0-windows10.0.19041/ReactiveUI.Wpf.xml",
+        "lib/net6.0-windows7.0/ReactiveUI.Wpf.dll",
+        "lib/net6.0-windows7.0/ReactiveUI.Wpf.xml",
+        "logo.png",
+        "reactiveui.wpf.17.1.50.nupkg.sha512",
+        "reactiveui.wpf.nuspec"
+      ]
+    },
+    "Splat/14.1.45": {
+      "sha512": "ayHdfTUklD5ci0s9m4uYMccjtkKVjZ9fVPT5q3PN+SnvyD6bjQVRozOfUHwdwh4LAz9ETZjR/tAgrm+IapXKrw==",
+      "type": "package",
+      "path": "splat/14.1.45",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE/LICENSE",
+        "lib/net6.0/Splat.dll",
+        "lib/net6.0/Splat.xml",
+        "lib/netstandard2.0/Splat.dll",
+        "lib/netstandard2.0/Splat.xml",
+        "splat.14.1.45.nupkg.sha512",
+        "splat.nuspec"
+      ]
+    },
+    "System.Reactive/5.0.0": {
+      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "type": "package",
+      "path": "system.reactive/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net5.0/_._",
+        "build/netcoreapp3.1/System.Reactive.dll",
+        "build/netcoreapp3.1/System.Reactive.targets",
+        "build/netcoreapp3.1/System.Reactive.xml",
+        "buildTransitive/net5.0/_._",
+        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net5.0/System.Reactive.dll",
+        "lib/net5.0/System.Reactive.xml",
+        "lib/netcoreapp3.1/_._",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "system.reactive.5.0.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "CSharpTicTacToeModels/1.0.0": {
+      "type": "project",
+      "path": "../CSharpTicTacToeModels/CSharpTicTacToeModels.csproj",
+      "msbuildProject": "../CSharpTicTacToeModels/CSharpTicTacToeModels.csproj"
+    },
+    "FSharpTicTacToeModels/1.0.0": {
+      "type": "project",
+      "path": "../FSharpTicTacToeModels/FSharpTicTacToeModels.fsproj",
+      "msbuildProject": "../FSharpTicTacToeModels/FSharpTicTacToeModels.fsproj"
+    },
+    "GameTheory/1.0.0": {
+      "type": "project",
+      "path": "../GameTheory/GameTheory.fsproj",
+      "msbuildProject": "../GameTheory/GameTheory.fsproj"
+    },
+    "NodeCounter/1.0.0": {
+      "type": "project",
+      "path": "../NodeCounter/NodeCounter.csproj",
+      "msbuildProject": "../NodeCounter/NodeCounter.csproj"
+    },
+    "TicTacToeModelInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../TicTacToeModelInterfaces/TicTacToeModelInterfaces.fsproj",
+      "msbuildProject": "../TicTacToeModelInterfaces/TicTacToeModelInterfaces.fsproj"
+    },
+    "TicTacToeViewModel/1.0.0": {
+      "type": "project",
+      "path": "../TicTacToeViewModel/TicTacToeViewModel.csproj",
+      "msbuildProject": "../TicTacToeViewModel/TicTacToeViewModel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "ReactiveUI.WPF >= 17.1.50",
+      "TicTacToeViewModel >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\matti\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeWPF\\TicTacToeWPF.csproj",
+      "projectName": "TicTacToeWPF",
+      "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeWPF\\TicTacToeWPF.csproj",
+      "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeWPF\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeViewModel\\TicTacToeViewModel.csproj": {
+              "projectPath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeViewModel\\TicTacToeViewModel.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "ReactiveUI.WPF": {
+            "target": "Package",
+            "version": "[17.1.50, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "E4tjTUmdS/rR2Ygdxx3hSqo4zxiDQUkOJYqUvlonM3jUF4O00A6p2mm0UOhKvUCVMDZKwhR8zzo7SGR26PycsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\TicTacToeViewModel\\TicTacToeViewModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matti\\.nuget\\packages\\dynamicdata\\7.5.2\\dynamicdata.7.5.2.nupkg.sha512",
+    "C:\\Users\\matti\\.nuget\\packages\\fody\\6.6.0\\fody.6.6.0.nupkg.sha512",
+    "C:\\Users\\matti\\.nuget\\packages\\fsharp.core\\6.0.3\\fsharp.core.6.0.3.nupkg.sha512",
+    "C:\\Users\\matti\\.nuget\\packages\\reactiveui\\17.1.50\\reactiveui.17.1.50.nupkg.sha512",
+    "C:\\Users\\matti\\.nuget\\packages\\reactiveui.fody\\17.1.50\\reactiveui.fody.17.1.50.nupkg.sha512",
+    "C:\\Users\\matti\\.nuget\\packages\\splat\\14.1.45\\splat.14.1.45.nupkg.sha512",
+    "C:\\Users\\matti\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

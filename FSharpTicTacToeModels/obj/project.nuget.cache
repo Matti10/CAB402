@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mlPMK9XmCMW1O/L7a+4XcGZCK41+/fG0jZIvAMcD2Ra+JMoS3kt8fup2I6ZWVEYd+aJSJ/Cq7EwjYQzNY6/t0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matti\\OneDrive - Queensland University of Technology\\CAB402\\assign1\\soluiton\\FSharpTicTacToeModels\\FSharpTicTacToeModels.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matti\\.nuget\\packages\\fsharp.core\\6.0.3\\fsharp.core.6.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
